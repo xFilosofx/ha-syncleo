@@ -156,6 +156,12 @@
       },
       "timer": {
         "name": "Timer"
+      },
+      "cooker_target_temperature": {
+        "name": "Target temperature"
+      },
+      "cooker_delay_start": {
+        "name": "Delay start"
       }
     },
     "sensor": {
@@ -194,6 +200,9 @@
       },
       "power": {
         "name": "Current power"
+      },
+      "cooker_current_temperature": {
+        "name": "Cooker temperature"
       }
     },
     "select": {

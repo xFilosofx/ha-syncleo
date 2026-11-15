@@ -156,6 +156,12 @@
       },
       "timer": {
         "name": "Таймер"
+      },
+      "cooker_target_temperature": {
+        "name": "Целевая температура"
+      },
+      "cooker_delay_start": {
+        "name": "Отложенный старт"
       }
     },
     "select": {
@@ -265,6 +271,9 @@
       },
       "power": {
         "name": "Текущая мощность"
+      },
+      "cooker_current_temperature": {
+        "name": "Температура в чаше"
       }
     },
     "switch": {

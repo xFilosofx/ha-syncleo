@@ -417,7 +417,9 @@ class KettleProfile(WaterHeaterProfile):
 class CookerProfile(
     DeviceBaseProfile,
     BinarySensorMixin,
+    ButtonMixin,
     NumberMixin,
+    SelectMixin,
     SensorMixin,
     SwitchMixin,
 ):
@@ -429,6 +431,11 @@ class CookerProfile(
     """
 
     profile_type: str = PROFILE_TYPE_COOKER
+
+    # name -> (program code, default temperature °C, default duration, seconds)
+    programs: dict[str, tuple[int, int, int]] = field(default_factory=dict)
+    # runtime state shared by the select and the start button
+    selected_program: str | None = None
 
 
 

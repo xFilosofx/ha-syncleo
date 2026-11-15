@@ -44,6 +44,12 @@
       },
       "reset_prefilter": {
         "name": "Reset prefilter life"
+      },
+      "cooker_start": {
+        "name": "Start program"
+      },
+      "cooker_stop": {
+        "name": "Stop"
       }
     },
     "binary_sensor": {
@@ -274,6 +280,9 @@
         "state": {
           "datasource_preset_none": "Internal Sensor"
         }
+      },
+      "cooker_program": {
+        "name": "Cooking program"
       }
     },
     "switch": {

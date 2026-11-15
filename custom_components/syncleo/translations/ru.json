@@ -44,6 +44,12 @@
       },
       "reset_prefilter": {
         "name": "Сброс ресурса префильтра"
+      },
+      "cooker_start": {
+        "name": "Старт программы"
+      },
+      "cooker_stop": {
+        "name": "Стоп"
       }
     },
     "binary_sensor": {
@@ -233,6 +239,9 @@
         "state": {
           "datasource_preset_none": "Встроенный датчик"
         }
+      },
+      "cooker_program": {
+        "name": "Программа"
       }
     },
     "sensor": {
